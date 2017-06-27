@@ -1,0 +1,55 @@
+$h1-color: hsl(120deg, 100%, 50%);
+$h2-color: hsl(50deg, 100%, 50%);
+$td-color: hsl(260deg, 30%, 80%);
+$td-font: Arial;
+$th-color: hsl(110deg, 70%, 80%);
+$h1-font: Tahoma;
+$h2-font: Helvetica;
+$td-size: 13px;
+$h1-size: 9px;
+$h2-size: 7px;
+$div-width: 10%;
+$div-margin: 30px;
+
+/*header{
+  h1{
+    color:$h1-color;
+  }
+}*/
+
+#container{
+  td{
+    font-family: $td-font;
+    font-size: $td-size;
+    color: $td-color;
+  }
+  th{
+    color: $th-color;
+    font-size: $td-size + 10px;
+  }
+  h1{
+    font-family: $h1-font;
+    font-size: $h1-size * 5;
+    color: $h1-color;
+  }
+  h2{
+    font-family: $h2-font;
+    font-size: $h2-size * 5;
+    color: $h2-color;
+  }
+}
+
+#container{
+   width: $div-width;
+   margin: $div-margin;
+}
+
+#scores{
+  width: $div-width;
+  margin: $div-margin - 10px;
+}
+
+#other-scores{
+  width: $div-width;
+  margin: $div-margin + 20px;
+}

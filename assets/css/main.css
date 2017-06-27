@@ -1,0 +1,34 @@
+/*header{
+  h1{
+    color:$h1-color;
+  }
+}*/
+#container td {
+  font-family: Arial;
+  font-size: 13px;
+  color: #c7bddb; }
+#container th {
+  color: #b4f0a8;
+  font-size: 23px; }
+#container h1 {
+  font-family: Tahoma;
+  font-size: 45px;
+  color: lime; }
+#container h2 {
+  font-family: Helvetica;
+  font-size: 35px;
+  color: #ffd500; }
+
+#container {
+  width: 10%;
+  margin: 30px; }
+
+#scores {
+  width: 10%;
+  margin: 20px; }
+
+#other-scores {
+  width: 10%;
+  margin: 50px; }
+
+/*# sourceMappingURL=main.css.map */
